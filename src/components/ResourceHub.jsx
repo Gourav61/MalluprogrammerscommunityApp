@@ -4,14 +4,17 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'; // Back Icon
 import Footer from './Footer'; // Assuming Footer is already defined
 import { keyframes } from '@mui/system';
 
+// Animation for hover effect
 const hoverAnimation = keyframes`
   0% { transform: translateY(0); box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); }
   100% { transform: translateY(-10px); box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); }
 `;
 
 const ResourceHub = () => {
+  // State to track the selected category, initialized to null
   const [selectedCategory, setSelectedCategory] = useState(null);
 
+  // Categories data
   const categories = [
     {
       id: 'webdev',

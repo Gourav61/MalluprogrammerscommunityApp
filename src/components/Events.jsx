@@ -149,7 +149,7 @@ const Events = () => {
                 <Button
                   variant="contained"
                   component={Link}
-                  to={`/event/${event.id}`}
+                  to={`/event/register/${event.id}`}
                   sx={{
                     backgroundColor: '#646cff',
                     color: 'white',
