@@ -27,8 +27,8 @@ const Navbar = () => {
   const navItems = [
     { label: 'Home', path: '/admin' },
     { label: 'Manage Users', path: '/admin/users' },
-    { label: 'Manage Events', path: '/admin/events' },
     { label: 'Create Announcements', path: '/admin/createAndManageAnnouncements' },
+    { label: 'AdminEventsDashboard', path: '/admin/events' },
   ];
 
   return (
